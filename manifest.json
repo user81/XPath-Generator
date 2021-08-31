@@ -1,0 +1,30 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "description": "Parse the html DOM to determine the XPATH of elements",
+   "devtools_page": "devtools/devtools.html",
+   "icons": {
+      "128": "images/logo128.png",
+      "16": "images/logo16.png",
+      "32": "images/logo32.png",
+      "48": "images/logo48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm0c6m151TbcITSDJMP9XcSkbEg16wVMubH3Wi5FeGzHYsfo4aKEPwwX9Y6No62xnNQSg7yhcjNNO4aZNOhdyTDavdPT6WtKAXzlY6nD57SXRvh7k7/xS9IOVrp7+zpyO+pBD1IQzejptT9eWkHIy4uI9fFNCxEsd2kitgnnhUZbWkEIeLDEMSJ8uMuE4qYWcDzthRt5NXSMGt5OWDS6aDVCh36+nS/ViQdJC0xZslLcC5iCicbgQz+0FLRj/IjG08BC+DT2mIqrtzuyWbDFX8bW34KdDLWSLidLa2xiDdU86fVwxzfYeY7O6xq0uq1kmEGw1TaYrS9O6WoETKhZrEwIDAQAB",
+   "manifest_version": 2,
+   "name": "XPath Generator",
+   "options_page": "options.html",
+   "page_action": {
+      "default_icon": {
+         "128": "images/logo128.png",
+         "16": "images/logo16.png",
+         "32": "images/logo32.png",
+         "48": "images/logo48.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "activeTab", "declarativeContent", "storage", "clipboardWrite", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.0"
+}
